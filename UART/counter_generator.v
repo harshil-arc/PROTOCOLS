@@ -1,5 +1,5 @@
 
-module baud_rate_generater(input vlk,output tx_enab,output rx_enab );
+module baud_rate_generater(input clk,output tx_enab,output rx_enab );
   reg [12:0 ] tx_counter;
   reg[9:0] rx_counter;
   
