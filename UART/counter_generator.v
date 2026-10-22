@@ -23,3 +23,5 @@ module baud_rate_generater(input vlk,output tx_enab,output rx_enab );
   
   assign tx_enab =  (tx_counter == 0 ) ? 1'b1 :1'b0;
   assign rx_enab = (rx_counter == 0) ? 1'b1 :1'b0;
+
+  endmodule;
